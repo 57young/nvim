@@ -9,12 +9,12 @@ keymap.set("i", "jk", "<ESC>")
 
 -- ----------Visual mode----------
 -- Move one or more lines of code
-keymap.set("v", "J", ":m '>+1<CR>gv=gv")
-keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+-- keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+-- keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- ----------Normal mode----------
 -- No search highlight
-keymap.set("n", "<leader>nh", ":nohl<CR>")
+-- keymap.set("n", "<leader>nh", ":nohl<CR>")
 
 -- open nvim-tree
-keymap.set("n", "<leader>t", ":NvimTreeToggle<CR>")
+-- keymap.set("n", "<leader>t", ":NvimTreeToggle<CR>")
